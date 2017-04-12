@@ -41,7 +41,7 @@
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="Fret">fret</label>
+                                        <label class="sr-only" for="fret">Fret</label>
                                         <input type="text" id="fret" class="form-control" placeholder="Type de Fret : AÃ©rien, Portuaire">
                                     </div>
                                 </div>
@@ -54,91 +54,91 @@
 
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="Valeur">Valeur</label>
-                                        <input type="text" id="subject" class="form-control" placeholder="Valeur de votre produit">
+                                        <label class="sr-only" for="valeur">Valeur</label>
+                                        <input type="text" id="valeur" class="form-control" placeholder="Valeur de votre produit">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-12">
                                         <label class="sr-only" for="facture">Facture</label>
-                                        <input type="text" id="facture" class="form-control" placeholder="Avez vous une facture dâ€™achat : oui, non">
+                                        <input type="text" id="facture" class="form-control" placeholder="Avez vous une facture d'achat : oui, non">
                                     </div>
 
                                 </div>
 
                                 <div class="row form-group">
                                     <div class="col-md-12">
-
-                                        <input type="text" id="circulation" class="form-control" placeholder="Date de premiÃ¨re mise en circulation quand il sâ€™agit de : voiture, camion, camionnette, engin, tracteur, benne, moto, avion, bateau, autres">
+                                         <label class="sr-only" for="circulation">Circulation</label>
+                                        <input type="text" id="circulation" class="form-control" placeholder="Date de première mise en circulation quand il sâ€™agit de : voiture, camion, camionnette, engin, tracteur, benne, moto, avion, bateau, autres">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-12">
-
-                                        <input type="text" id="serial" class="form-control" placeholder="NumÃ©ro de sÃ©rie du produit">
+                                         <label class="sr-only" for="serial">N de série</label>
+                                        <input type="text" id="serial" class="form-control" placeholder="Numéro de série du produit">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-12">
-
+                                         <label class="sr-only" for="file">Fichier</label>
                                         <input type="file" id="file" class="form-control" >
-                                        TÃ©lÃ©chargement des documents ici. vous avez la possibilitÃ© de nous transmettre ces documents par whatsapp suivie de votre code client a nos
+                                        Téléchargement des documents ici. vous avez la possibilité de nous transmettre ces documents par whatsapp suivie de votre code client a nos
                                         service.
                                     </div>
                                 </div>
 
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="Valeur">Valeur</label>
-                                        <input type="text" id="contenu" class="form-control" placeholder="Contenu de votre Ã©lÃ©ment : photos et texte libre.">
-                                        Vous avez la possibilitÃ© de nous transmettre ces documents par whatsapp suivie de votre code
+                                        <label class="sr-only" for="contenu">Contenu</label>
+                                        <input type="text" id="contenu" class="form-control" placeholder="Contenu de votre élément : photos et texte libre.">
+                                        Vous avez la possibilité de nous transmettre ces documents par whatsapp suivie de votre code
                                         client a nos service.
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="titre">Titre</label>
-                                        <input type="text" id="photos" class="form-control" placeholder="Photos du bien : vous avez la possibilitÃ© de nous transmettre ces documents par whatsapp suivie de votre code client a nos service.">
+                                        <label class="sr-only" for="photo">Photo</label>
+                                        <input type="file" id="photo" class="form-control" placeholder="Photos du bien : vous avez la possibilité de nous transmettre ces documents par whatsapp suivie de votre code client a nos service.">
                                     </div>
 
                                 </div>
 
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="destination">Destination</label>
+                                        <label class="sr-only" for="transitaire">Transitaire</label>
                                         <input type="text" id="transitaire" class="form-control" placeholder="Avez vous un transitaire : oui, non">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="Fret">fret</label>
+                                        <label class="sr-only" for="relationPart">Relation Partenqire</label>
                                         <input type="text" id="relationPart" class="form-control" placeholder="Voulez vous une mise en relation avec un de nos partenaires : oui non">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="produit">Produit</label>
-                                        <input type="text" id="dÃ©clarant" class="form-control" placeholder="Avez vous un dÃ©clarant : oui, non. Si oui (adresse et contact renseignement, non obligatoire)">
+                                        <label class="sr-only" for="declarant">Declarant</label>
+                                        <input type="text" id="declarant" class="form-control" placeholder="Avez vous un déclarant : oui, non. Si oui (adresse et contact renseignement, non obligatoire)">
                                     </div>
                                 </div>
 
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="Valeur">Valeur</label>
-                                        <input type="text" id="subject" class="form-control" placeholder="Voulez vous une mise en relation avec un de nos partenaires dÃ©clarant: oui, non">
+                                        <label class="sr-only" for="rerlPartDec">Relation Partenaire déclarant</label>
+                                        <input type="text" id="rerlPartDec" class="form-control" placeholder="Voulez vous une mise en relation avec un de nos partenaires déclarant: oui, non">
                                     </div>
                                 </div>
 
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="Valeur">Valeur</label>
-                                        <input type="text" id="cle" class="form-control" placeholder="souhaitez vous une solution clÃ© en main (prise en charge auprÃ¨s de la douane et livraison) oui, non">
+                                        <label class="sr-only" for="cle">Clé</label>
+                                        <input type="text" id="cle" class="form-control" placeholder="souhaitez vous une solution clé en main (prise en charge auprès de la douane et livraison) oui, non">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-12">
                                         <div class="checkbox">
-                                            <label><input type="checkbox" value="">Je dÃ©clare que toutes mes informations sont exactes et complÃ¨tes, toutes modifications donnera lieu dâ€™une nouvelle estimation de la valeur douaniÃ¨re.</label>
+                                            <label><input type="checkbox" value="">Je déclare que toutes mes informations sont exactes et complÃ¨tes, toutes modifications donnera lieu dâ€™une nouvelle estimation de la valeur douaniÃ¨re.</label>
                                         </div>
 
                                     </div>
