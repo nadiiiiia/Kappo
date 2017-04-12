@@ -69,8 +69,8 @@
 
                                 <div class="row form-group">
                                     <div class="col-md-12">
-                                        <label class="sr-only" for="login">Mot de passe</label>
-                                        <input type="text" id="circulation" class="form-control" placeholder="Mot de passe">
+                                        <label class="sr-only" for="passwd">Mot de passe</label>
+                                        <input type="text" id="passwd" class="form-control" placeholder="Mot de passe">
                                     </div>
                                 </div>
                                 <div class="row form-group">
