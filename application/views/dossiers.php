@@ -78,5 +78,8 @@
 
 
     <?php include('include/footerScriptJs.php'); ?>
+	</body>
+</html>
                                                
+											   
 

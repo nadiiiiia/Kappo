@@ -14,6 +14,14 @@
                                     <li><a href="<?php echo base_url() . "index.php/home/tarifs" ?>">Tarifs</a></li>
                                     <li><a href="<?php echo base_url() . "index.php/home/about" ?>">Qui sommes nous</a></li>                                              
                                     <li><a href="<?php echo base_url() . "index.php/home/contact" ?>">Contact</a></li>
+								    <li class="has-dropdown">
+							             <a href="#">Langue</a>
+							                  <ul class="dropdown">
+								                 <li><img src="<?php echo base_url(); ?>assets/images/fr-mini.png" style="display:inline-block;" class="img-responsive" alt=""/><span></span><span style="display:inline-block; float:right;"> Français</span> </li>
+								                 <li><img src="<?php echo base_url(); ?>assets/images/en-mini.png" style="display:inline-block; class="img-responsive" alt=""/><span style="display:inline-block;float:right;"> English</span></li>
+								              
+							                  </ul>
+						            </li>
 
                                 </ul>
                             </div>

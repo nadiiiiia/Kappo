@@ -1,4 +1,4 @@
-                <header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(<?php echo base_url(); ?>assets/images/banner-2.jpg)">
+                <header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(<?php echo base_url(); ?>assets/images/devis1.jpg)">
                     <div class="overlay"></div>
                     <div class="gtco-container">
                         <div class="row">
@@ -6,7 +6,7 @@
 
 
 
-                                <div class="row row-mt-15em">
+                                <div class="row row-mt-7em">
 
                                     <div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
                                         <span class="intro-text-small">Recherchez un tarif</span>

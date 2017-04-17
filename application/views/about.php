@@ -17,226 +17,59 @@
                 <div class="gtco-container">
                     <div class="row">
                         <div class="col-md-8 text-left gtco-heading">
-                            <h2>Product for Desktop</h2>
-                            <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                            <h2>Société de Service</h2>
+                            <p>     Nous sommes une association de plusieurs petites structures dynamiques qui opèrent depuis des années auprès des institutions douanières. Nous avons juste décidé d’étendre notre clientèle et mettant à leurs dispositions des outils adapté à notre époque.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-5">
                             <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
                                 <span class="icon">
-                                    <i class="icon-check"></i>
+                                     <i class="ti-credit-card"></i>
                                 </span>
                                 <div class="feature-copy">
-                                    <h3>Retina Ready</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                    <h3>Tarifs Douaniers</h3>
+                                    <p>Relevé des tarifs douaniers pour vos objets en entrance ou à destination des ports et aéroports du Cameroun.</p>
                                 </div>
                             </div>
 
-                            <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-                                <span class="icon">
-                                    <i class="icon-check"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Fully Responsive</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
-
-                            <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-                                <span class="icon">
-                                    <i class="icon-check"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Ready To Use</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
-
-                            <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-                                <span class="icon">
-                                    <i class="icon-check"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Download Files</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-7 macbook-wrap animate-box" data-animate-effect="fadeInRight">
-                            <img src="<?php echo base_url(); ?>assets/images/macbook.png" alt="Free HTML5 Bootstrap Template">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gtco-section border-bottom">
-                <div class="gtco-container">
-
-                    <div class="row">
-                        <div class="col-md-8 text-left gtco-heading">
-                            <h2>Product for iPhone</h2>
-                            <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="<?php echo base_url(); ?>assets/images/iphone.png" class="img-responsive" alt="Free HTML5 Bootstrap Template">
-                        </div>
-                        <div class="col-md-6 mt-sm">
                             <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
                                 <span class="icon">
                                     <i class="ti-layers-alt"></i>
                                 </span>
                                 <div class="feature-copy">
-                                    <h3>Retina Ready</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                    <h3>Relation</h3>
+                                    <p>Mise en relation avec des transitaires, déclarants partenaire avec un devis ferme garantie et sous caution.</p>
                                 </div>
                             </div>
 
                             <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
                                 <span class="icon">
-                                    <i class="ti-key"></i>
+                                    <i class="icon-check"></i>
                                 </span>
                                 <div class="feature-copy">
-                                    <h3>Fully Responsive</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                    <h3>Suivie</h3>
+                                    <p>Suivie de vos documents douaniers et évolution des différents démarches liées.</p>
                                 </div>
                             </div>
 
-                            <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-                                <span class="icon">
-                                    <i class="ti-image"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Ready To Use</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
-
-                            <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-                                <span class="icon">
-                                    <i class="ti-heart"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Download Files</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
-
-                            <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-                                <span class="icon">
-                                    <i class="ti-infinite"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Download Files</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
-
-                            <div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-                                <span class="icon">
-                                    <i class="ti-credit-card"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Download Files</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
+            
 
                         </div>
+
                     </div>
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+					<div class="row">
+                        <div class="col-md-8 text-left gtco-heading">
+                            <h2>Garantie</h2>
+                            <p>Nos tarifs sont garantie et valable 30 jours, le montant transmis prends en compte que les informations transmises, tous autres éléments non transmis au moments du devis ne peut faire l’objet d’une quelconque réclamation auprès de nos services.</p>
+                        </div>
+                    </div>
+					</div>
                 </div>
             </div>
 
-            <div class="gtco-section">
-                <div class="gtco-container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-                            <h2>Beautiful Images</h2>
-                            <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <a href="<?php echo base_url(); ?>assets/images/img_2.jpg" class="fh5co-project-item image-popup">
-                                <figure>
-                                    <div class="overlay"><i class="ti-plus"></i></div>
-                                    <img src="<?php echo base_url(); ?>assets/images/img_2.jpg" alt="Image" class="img-responsive">
-                                </figure>
-                                <div class="fh5co-text">
-                                    <h2>Beautiful Sunrise</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <a href="<?php echo base_url(); ?>assets/images/img_3.jpg" class="fh5co-project-item image-popup">
-                                <figure>
-                                    <div class="overlay"><i class="ti-plus"></i></div>
-                                    <img src="<?php echo base_url(); ?>assets/images/img_3.jpg" alt="Image" class="img-responsive">
-                                </figure>
-                                <div class="fh5co-text">
-                                    <h2>Beautiful Sunrise</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <a href="<?php echo base_url(); ?>assets/images/img_4.jpg" class="fh5co-project-item image-popup">
-                                <figure>
-                                    <div class="overlay"><i class="ti-plus"></i></div>
-                                    <img src="<?php echo base_url(); ?>assets/images/img_4.jpg" alt="Image" class="img-responsive">
-                                </figure>
-                                <div class="fh5co-text">
-                                    <h2>Beautiful Sunrise</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                                </div>
-                            </a>
-                        </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <a href="<?php echo base_url(); ?>assets/images/img_1.jpg" class="fh5co-project-item image-popup">
-                                <figure>
-                                    <div class="overlay"><i class="ti-plus"></i></div>
-                                    <img src="<?php echo base_url(); ?>assets/images/img_1.jpg" alt="Image" class="img-responsive">
-                                </figure>
-                                <div class="fh5co-text">
-                                    <h2>Beautiful Sunrise</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <a href="<?php echo base_url(); ?>assets/images/img_5.jpg" class="fh5co-project-item image-popup">
-                                <figure>
-                                    <div class="overlay"><i class="ti-plus"></i></div>
-                                    <img src="<?php echo base_url(); ?>assets/images/img_5.jpg" alt="Image" class="img-responsive">
-                                </figure>
-                                <div class="fh5co-text">
-                                    <h2>Beautiful Sunrise</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <a href="<?php echo base_url(); ?>assets/images/img_6.jpg" class="fh5co-project-item image-popup">
-                                <figure>
-                                    <div class="overlay"><i class="ti-plus"></i></div>
-                                    <img src="<?php echo base_url(); ?>assets/images/img_6.jpg" alt="Image" class="img-responsive">
-                                </figure>
-                                <div class="fh5co-text">
-                                    <h2>Beautiful Sunrise</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                                </div>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
 
 
             <?php include('include/subscribe.php'); ?>
@@ -247,6 +80,8 @@
 
     </div>
     <?php include('include/footerScriptJs.php'); ?>
+</body>
+</html>
 
 
-
+								

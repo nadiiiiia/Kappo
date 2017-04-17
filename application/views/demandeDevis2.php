@@ -21,124 +21,265 @@
                         </div>
                     </div>
                     <div class="row">
+                    
                         <div class="col-md-12 animate-box">
 
                             <h3>Informations de devis</h3>
-                            <form action="#">
+                         <?php echo form_open('home/load_second_form'); ?>
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="titre">Titre</label>
-                                        <input type="text" id="titre" class="form-control" placeholder="Vous êtes un : particulier, professionnel, association, ONG, Autres">
+                                    <div class="col-md-4">
+                                        <label for="titre">Vous êtes un</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                      
+                                       <select  name="titre" class="form-control" >
+                                           <option value="particulier">Particulier</option>
+                                           <option value="professionnel">Professionnel</option>
+                                           <option value="association">Association</option>
+                                           <option value="ONG">ONG</option>
+                                           <option value="autres">Autres</option>
+                                       </select>
                                     </div>
 
                                 </div>
 
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="destination">Destination</label>
-                                        <input type="text" id="destination" class="form-control" placeholder="Destination : pays, ville">
+                                    <div class="col-md-4">
+                                        <label  for="destination">Destination</label>
+                                    </div>
+                                     <div class="col-md-8">
+                                        <input type="text" name="destination" class="form-control" placeholder="Pays, Ville">
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="fret">Fret</label>
-                                        <input type="text" id="fret" class="form-control" placeholder="Type de Fret : Aérien, Portuaire">
+                                    <div class="col-md-4">
+                                        <label  for="fret">Type de Fret</label>
+                                        </div>
+                                     <div class="col-md-8">
+
+                                        <select  name="fret" class="form-control" >
+                                           <option value="">--Séléctionnez un type--</option>
+                                           <option value="Aérien">Aérien</option>
+                                           <option value="Portuaire">Portuaire</option>
+
+                                       </select>
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="produit">Produit</label>
-                                        <input type="text" id="produit" class="form-control" placeholder="Type de produit : voiture, camion, camionnette, engin, tracteur, benne, moto, avion, bateau, valise, colis, groupage, container, autres">
+                                    <div class="col-md-4">
+                                        <label  for="produit">Type de produit</label>
+                                    </div>
+                                     <div class="col-md-8">
+                                         <select  id="produit" name="produit" class="form-control" >
+                                           <option value="">--Séléctionnez un produit--</option>
+                                           <option value="voiture">Voiture</option>
+                                           <option value="camion">Camion</option>
+                                           <option value="camionnette">Camionnette</option>
+                                           <option value="engin">Engin</option>
+                                           <option value="tracteur">Tracteur</option>
+                                           <option value="benne">Benne</option>
+                                           <option value="moto">Moto</option>
+                                           <option value="avion">Avion</option>
+                                           <option value="bateau">Bateau</option>
+                                           <option value="valise">Valise</option>
+                                           <option value="colis">Colis</option>
+                                           <option value="groupage">Groupage</option>
+                                           <option value="container">Container</option>
+                                           <option value="autres">Autres</option>
+
+                                       </select>
+                                        
+                                    </div>
+                                </div>
+                            
+                                <div id="marque" class="row form-group">
+                                    <div class="col-md-4">
+                                        <label   for="marque">Marque </label>
+                                        </div>
+                                     <div class="col-md-8">
+                                       <select  name="marque" class="form-control" >
+                                           
+                                           <option value="">--Séléctionnez une marque--</option>
+                                          
+
+                                       </select>
+                                        
+                                    </div>
+                                </div>
+                            
+                            <div id="model" class="row form-group">
+                                    <div class="col-md-4">
+                                        <label   for="model">Model</label>
+                                        </div>
+                                     <div class="col-md-8">
+                                       <select  name="model" class="form-control" >
+                                           
+                                           <option value="">--Séléctionnez un model--</option>
+                                           
+
+                                       </select>
+                                        
                                     </div>
                                 </div>
 
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="valeur">Valeur</label>
-                                        <input type="text" id="valeur" class="form-control" placeholder="Valeur de votre produit">
+                                    <div class="col-md-4">
+                                        <label  for="valeur">Valeur</label>
+                                        </div>
+                                     <div class="col-md-8">
+                                        <input type="text" name="valeur" class="form-control" placeholder="Valeur de votre produit">
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="facture">Facture</label>
-                                        <input type="text" id="facture" class="form-control" placeholder="Avez vous une facture d'achat : oui, non">
+                                    <div class="col-md-4">
+                                        <label  for="facture">Avez vous une facture d'achat</label>
+                                        </div>
+                                     <div class="col-md-8">
+                                       <select  name="facture" class="form-control" >
+                                           
+                                           <option value="0">Non</option>
+                                           <option value="1">Oui</option>
+
+                                       </select>
+                                        
                                     </div>
 
                                 </div>
 
-                                <div class="row form-group">
-                                    <div class="col-md-12">
-                                         <label class="sr-only" for="circulation">Circulation</label>
-                                        <input type="text" id="circulation" class="form-control" placeholder="Date de premi�re mise en circulation quand il s’agit de : voiture, camion, camionnette, engin, tracteur, benne, moto, avion, bateau, autres">
+                                <div id="circulation" class="row form-group">
+                                    <div class="col-md-4">
+                                         <label  for="circulation">Date de première mise en circulation</label>
+                                    </div>
+                                     <div class="col-md-8">
+                                         <input type="date" name="circulation" class="form-control">
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                         <label class="sr-only" for="serial">N de s�rie</label>
-                                        <input type="text" id="serial" class="form-control" placeholder="Num�ro de s�rie du produit">
+                                    <div class="col-md-4">
+                                         <label  for="serial">N de série</label>
+                                         </div>
+                                     <div class="col-md-8">
+                                        <input type="text" name="serial" class="form-control" placeholder="Numéro de série du produit">
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                         <label class="sr-only" for="file">Fichier</label>
-                                        <input type="file" id="file" class="form-control" >
-                                        T�l�chargement des documents ici. vous avez la possibilit� de nous transmettre ces documents par whatsapp suivie de votre code client a nos
+                                    <div class="col-md-4">
+                                         <label  for="file">Fichier</label>
+                                         </div>
+                                     <div class="col-md-8">
+                                        <input type="file" name="file" class="form-control" >
+                                        Téléchargement des documents ici. vous avez la possibilité de nous transmettre ces documents par whatsapp suivie de votre code client a nos
                                         service.
                                     </div>
                                 </div>
 
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="contenu">Contenu</label>
-                                        <input type="text" id="contenu" class="form-control" placeholder="Contenu de votre �l�ment : photos et texte libre.">
-                                        Vous avez la possibilit� de nous transmettre ces documents par whatsapp suivie de votre code
+                                    <div class="col-md-4">
+                                        <label for="contenu">Contenu de votre élément</label>
+                                        </div>
+                                     <div class="col-md-8">
+                                        <input type="file" name="contenu" class="form-control" >
+                                        Vous avez la possibilité de nous transmettre ces documents par whatsapp suivie de votre code
                                         client a nos service.
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="photo">Photo</label>
-                                        <input type="file" id="photo" class="form-control" placeholder="Photos du bien : vous avez la possibilit� de nous transmettre ces documents par whatsapp suivie de votre code client a nos service.">
+                                    <div class="col-md-4">
+                                        <label  for="photo">Photos du bien</label>
+                                        </div>
+                                     <div class="col-md-8">
+                                        <input type="file" name="photo" class="form-control" placeholder="Photos du bien : vous avez la possibilité de nous transmettre ces documents par whatsapp suivie de votre code client a nos service.">
                                     </div>
 
                                 </div>
 
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="transitaire">Transitaire</label>
-                                        <input type="text" id="transitaire" class="form-control" placeholder="Avez vous un transitaire : oui, non">
+                                    <div class="col-md-4">
+                                        <label   for="transitaire">Avez vous un transitaire</label>
+                                        </div>
+                                     <div class="col-md-8">
+                                       <select  name="transitaire" class="form-control" >
+                                           
+                                           <option value="0">Non</option>
+                                           <option value="1">Oui</option>
+
+                                       </select>
+                                        
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="relationPart">Relation Partenqire</label>
-                                        <input type="text" id="relationPart" class="form-control" placeholder="Voulez vous une mise en relation avec un de nos partenaires : oui non">
+                                    <div class="col-md-4">
+                                        <label   for="relationPart">Voulez vous une mise en relation avec un de nos partenaires</label>
+                                        </div>
+                                     <div class="col-md-8">
+                                         <select  name="relationPart" class="form-control" >
+                                           
+                                           <option value="0">Non</option>
+                                           <option value="1">Oui</option>
+
+                                       </select>
+                                        
                                     </div>
                                 </div>
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="declarant">Declarant</label>
-                                        <input type="text" id="declarant" class="form-control" placeholder="Avez vous un d�clarant : oui, non. Si oui (adresse et contact renseignement, non obligatoire)">
+                                    <div class="col-md-4">
+                                        <label  for="declarant">Avez vous un déclarant</label>
+                                        
+                                        </div>
+                                     <div class="col-md-8">
+                                         <select id="declarant" name="declarant" class="form-control" >
+                                           
+                                           <option value="0">Non</option>
+                                           <option value="1">Oui</option>
+
+                                       </select>
+                                      
+                                    </div>
+                                </div>
+                            <div id="adresseDeclarant" class="row form-group">
+                                    <div class="col-md-4">
+                                        <label  for="adresseDeclarant">Adresse et contact du déclarant</label>
+                                        
+                                        </div>
+                                     <div class="col-md-8">
+
+                                        <input type="text"  name="adresseDeclarant" class="form-control" placeholder="adresse et contact renseignement, non obligatoire">
                                     </div>
                                 </div>
 
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="rerlPartDec">Relation Partenaire d�clarant</label>
-                                        <input type="text" id="rerlPartDec" class="form-control" placeholder="Voulez vous une mise en relation avec un de nos partenaires d�clarant: oui, non">
+                                    <div class="col-md-4">
+                                        <label   for="relPartDec">Voulez vous une mise en relation avec un de nos partenaires déclarant</label>
+                                        </div>
+                                     <div class="col-md-8">
+                                         <select name="relPartDec" class="form-control" >
+                                           
+                                           <option value="0">Non</option>
+                                           <option value="1">Oui</option>
+
+                                       </select>
+                                        
                                     </div>
                                 </div>
 
                                 <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="cle">Cl�</label>
-                                        <input type="text" id="cle" class="form-control" placeholder="souhaitez vous une solution cl� en main (prise en charge aupr�s de la douane et livraison) oui, non">
+                                    <div class="col-md-4">
+                                        <label  for="cle">souhaitez vous une solution clé en main (prise en charge auprès de la douane et livraison)</label>
+                                        </div>
+                                     <div class="col-md-8">
+                                       <select name="cle" class="form-control" >
+                                           
+                                           <option value="0">Non</option>
+                                           <option value="1">Oui</option>
+
+                                       </select>
+                                       
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-md-12">
                                         <div class="checkbox">
-                                            <label><input type="checkbox" value="">Je d�clare que toutes mes informations sont exactes et complètes, toutes modifications donnera lieu d’une nouvelle estimation de la valeur douanière.</label>
+                                            <label><input type="checkbox" value="">Je déclare que toutes mes informations sont exactes et complètes, toutes modifications donnera lieu d’une nouvelle estimation de la valeur douanière.</label>
                                         </div>
 
                                     </div>
@@ -146,10 +287,11 @@
 
                                 <div class="form-group">
                                     <a href="<?php echo base_url() . "index.php/home/devis/1" ?>" class="btn btn-primary pull-left">Précédent</a>
-                                    <a href="<?php echo base_url() . "index.php/home/devis/3" ?>" class="btn btn-primary pull-right">Suivant</a>
+                               
+                                    <input type="submit" id="step2" class="btn btn-primary pull-right" value="Suivant">
                                 </div>
 
-                            </form>		
+                              <?php echo form_close(); ?>		
 
 
                         </div>
@@ -168,6 +310,7 @@
 
     </div>
 
-
     <?php include('include/footerScriptJs.php'); ?>
 
+</body>
+</html>

@@ -62,10 +62,11 @@
                                 <div class="gtco-contact-info">
                                     <h3>Informations de Contact</h3>
                                     <ul>
-                                        <li class="address">198 Rue XX, <br> Adresse 10016</li>
-                                        <li class="phone"><a href="tel://1234567920">+ 1234 5678 98</a></li>
-                                        <li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-                                        <li class="url"><a href="http://FreeHTML5.co">votre_site.com</a></li>
+                                        <li class="address">198 Route de Mpopi, <br> Douala</li>
+                                        <li class="phone"><a href="tel://+ 237 691989767">+ 237 691989767</a>  </li>
+										 <li class="phone "><a href="tel://+ 237 691989767">+ 237 691989767</a> (WhatsApp) </li>
+                                        <li class="email"><a href="mailto:contact@kappo.fr">contact@kappo.fr</a></li>
+                                        <li class="url"><a href="http://www.kappo.fr  ">www.kappo.fr  </a></li>
                                     </ul>
                                 </div>
 
@@ -86,6 +87,8 @@
     </div>
 
     <?php include('include/footerScriptJs.php'); ?>
+	</body>
+</html>
 
 
 

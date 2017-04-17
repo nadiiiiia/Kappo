@@ -20,7 +20,8 @@
                                                 <!-- Main -->
                                                 <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 												<!-- Table des dossiers -->
-												<script src="<?php echo base_url(); ?>assets/js/table.js"></script>
+												<script src="<?php echo base_url(); ?>assets/js/table.js"></script> 
+												<!-- Formulaires de devis -->
+												<script src="<?php echo base_url(); ?>assets/js/devisForm.js"></script>
 												
-										 </body>
-                                                </html>
+												

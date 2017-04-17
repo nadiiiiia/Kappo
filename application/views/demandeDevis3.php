@@ -21,15 +21,16 @@
                         </div>
                     </div>
                     <div class="row">
+                         
                         <div class="col-md-12 animate-box">
 
                             <h3>Informations de paiement</h3>
-
+   <?php echo form_open('home/load_third_form'); ?>
                             <p>Ici le formulaire de paiement</p>
 
                             <div class="form-group">
                                 <a href="<?php echo base_url() . "index.php/home/devis/2" ?>" class="btn btn-primary pull-left">Précédent</a>
-                                <a href="#" class="btn btn-primary pull-right">Envoyer</a>
+                           <input type="submit" class="btn btn-primary pull-right" value="Envoyé">
                             </div>
 
                         </div>
@@ -49,5 +50,7 @@
     </div>
 
     <?php include('include/footerScriptJs.php'); ?>
+</body>
+</html>
                                      
 

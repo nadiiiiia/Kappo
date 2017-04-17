@@ -17,101 +17,79 @@
                 <div class="gtco-container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-                            <h2>Choose The Best Plan For You</h2>
-                            <p>Join over 1 Million of users. Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                            <h2>Tarifs</h2>
+                            <p>Vous pouvez choisir le tarif qui vous convient</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="price-box">
-                                <h2 class="pricing-plan">Starter</h2>
-                                <div class="price"><sup class="currency">$</sup>7<small>/mo</small></div>
-                                <p>Basic customer support for small business</p>
-                                <hr>
-                                <ul class="pricing-info">
-                                    <li>10 projects</li>
-                                    <li>20 Pages</li>
-                                    <li>20 Emails</li>
-                                    <li>100 Images</li>
-                                </ul>
-                                <a href="#" class="btn btn-default btn-sm">Get started</a>
-                            </div>
+                    
                         </div>
                         <div class="col-md-4">
-                            <div class="price-box">
-                                <h2 class="pricing-plan">Regular</h2>
-                                <div class="price"><sup class="currency">$</sup>19<small>/mo</small></div>
-                                <p>Basic customer support for small business</p>
-                                <hr>
-                                <ul class="pricing-info">
-                                    <li>15 projects</li>
-                                    <li>40 Pages</li>
-                                    <li>40 Emails</li>
-                                    <li>200 Images</li>
-                                </ul>
-                                <a href="#" class="btn btn-default btn-sm">Get started</a>
+                             
+                            <div class="price-box popular animate-box">
+                                <div class="popular-text">Basique</div>
+                               
+                                <div class="price">10<sup class="currency">€</sup></div>
+								<div class="price">6.500<sup class="currency">CFA</sup></div>
+                                <p>Devis pour connaître le montant des frais de douane</p>
                             </div>
+                        </div>
+                       
+                        <div class="col-md-4">
+                            
+                        </div>
+                    </div>
+					<div class="row">
+					    
+                        <div class="col-md-4">
+                            <div class="price-box animate-box">
+                                <h2 class="pricing-plan">VP</h2>
+                                <div class="price">300<sup class="currency">€</sup></div>
+								<div class="price">200.000<sup class="currency">CFA</sup></div>
+                                <p>Tarif de prise en charge administrative complète en sus des frais douaniers et éléments complémentaires non notifiés par le client.</p>
+                            </div>
+                        </div>
+					
+                        <div class="col-md-4">
+                            <div class="price-box animate-box">
+                                <h2 class="pricing-plan">Camionnette</h2>
+                                <div class="price">350<sup class="currency">€</sup></div>
+								<div class="price">233.330<sup class="currency">CFA</sup></div>
+                                <p>Tarif de prise en charge administrative complète en sus des frais douaniers et élément complémentaires non notifier par le client.</p>
+                           </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="price-box popular">
-                                <div class="popular-text">Popular</div>
-                                <h2 class="pricing-plan">Plus</h2>
-                                <div class="price"><sup class="currency">$</sup>79<small>/mo</small></div>
-                                <p>Basic customer support for small business</p>
-                                <hr>
-                                <ul class="pricing-info">
-                                    <li>Unlimitted projects</li>
-                                    <li>100 Pages</li>
-                                    <li>100 Emails</li>
-                                    <li>700 Images</li>
-                                </ul>
-                                <a href="#" class="btn btn-primary btn-sm">Get started</a>
+                            <div class="price-box animate-box">
+                                <h2 class="pricing-plan">Camion </h2>
+                                <div class="price">600<sup class="currency">€</sup></div>
+								<div class="price">400.000<sup class="currency">CFA</sup></div>
+                                <p>Tarif de prise en charge administrative complète en sus frais douaniers et élément complémentaires non notifier par le client.</p>
                             </div>
                         </div>
+
+                    </div>
+					<div class="row">
+					    <div class="col-md-4">
+						</div>
+                        <div class="col-md-4">
+                            <div class="price-box animate-box">
+                                <h2 class="pricing-plan">Engins agricoles </h2>
+                                <div class="price">400<sup class="currency">€</sup></div>
+								<div class="price">266.667<sup class="currency">CFA</sup></div>
+                                <p>Tarif de prise en charge administrative complète en sus des frais douaniers et éléments complémentaires non notifiés par le client.</p>
+                                
+                            </div>
+                        </div>
+					
+
+						<div class="col-md-4">
+						</div>
+
                     </div>
                 </div>
             </div>
 
-            <div class="gtco-section">
-                <div class="gtco-container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-                            <h2>Frequently Ask Questions</h2>
-                            <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <ul class="fh5co-faq-list">
-                                <li class="animate-box">
-                                    <h2>What is Splash?</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                </li>
-                                <li class="animate-box">
-                                    <h2>What language are available?</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                </li>
-                                <li class="animate-box">
-                                    <h2>I have technical problem, who do I email?</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                </li>
-                                <li class="animate-box">
-                                    <h2>Can I have a username that is already taken?</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                </li>
-                                <li class="animate-box">
-                                    <h2>How do I use Splash features?</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                </li>
-                                <li class="animate-box">
-                                    <h2>Is Splash free??</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
 

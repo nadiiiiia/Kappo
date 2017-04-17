@@ -25,61 +25,86 @@
                         <div class="col-md-12 animate-box">
 
                             <h3>Informations personnels</h3>
-                            <form action="#">
-                                <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="nom">Nom</label>
-                                        <input type="text" id="nom" class="form-control" placeholder="Nom">
-                                    </div>
-
+                            <?php echo form_open('home/load_first_form'); ?>
+                            <div class="row form-group">
+                                <div class="col-md-3">
+                                    <label  for="nom">Nom</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="text" name="nom" class="form-control" required="required" placeholder="Nom">
                                 </div>
 
-                                <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="prenom">Pr�nom</label>
-                                        <input type="text" id="prenom" class="form-control" placeholder="Prénom">
-                                    </div>
+                            </div>
+
+                            <div class="row form-group">
+
+                                <div class="col-md-3">
+                                    <label  for="prenom">Prénom</label>
                                 </div>
-                                <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="adresse">Adresse</label>
-                                        <input type="text" id="adresse" class="form-control" placeholder="Adresse">
-                                    </div>
+                                <div class="col-md-9">
+                                    <input type="text" name="prenom" class="form-control" required="required" placeholder="Prénom">
                                 </div>
-                                <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="tel">T�l�phone</label>
-                                        <input type="text" id="tel" class="form-control" placeholder="Téléphone">
-                                    </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-3">
+                                    <label  for="adresse">Adresse</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="text" name="adresse" class="form-control" required="required" placeholder="Adresse">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-3">
+                                    <label  for="tel">Téléphone</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="text" name="tel" class="form-control" required="required" placeholder="Téléphone">
+                                </div>
+                            </div>
+
+                            <div class="row form-group">
+                                <div class="col-md-3">
+                                    <label  for="email">E-mail</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="email" name="email" class="form-control" required="required" placeholder="E-mail">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-3">
+                                    <label for="reEmail">vérification E-mail</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="email" name="reEmail" class="form-control" required="required" placeholder="vérification E-mail">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-3">
+                                    <label  for="passwd">Mot de passe</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="password" name="passwd" class="form-control" required="required" placeholder="passwd">
                                 </div>
 
-                                <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="e-mail">E-mail</label>
-                                        <input type="text" id="e-mail" class="form-control" placeholder="E-mail">
-                                    </div>
+                            </div>
+
+                            <div class="row form-group">
+                                <div class="col-md-3">
+                                    <label  for="rePasswd">vérification mot de passe</label>
                                 </div>
-                                <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="login">Login</label>
-                                        <input type="text" id="login" class="form-control" placeholder="Login">
-                                    </div>
-
+                                <div class="col-md-9">
+                                    <input type="password" name="rePasswd" class="form-control" required="required" placeholder="vérification mot de passe">
                                 </div>
+                            </div>
+                            <div class="row form-group">
 
-                                <div class="row form-group">
-                                    <div class="col-md-12">
-                                        <label class="sr-only" for="passwd">Mot de passe</label>
-                                        <input type="text" id="passwd" class="form-control" placeholder="Mot de passe">
-                                    </div>
+                                <div class="form-group">
+                                    <input type="submit" id="step1" class="btn btn-primary pull-right" value="Suivant">
                                 </div>
-                                <div class="row form-group">
+                            </div>
 
-                                    <div class="form-group">
-                                        <a href="<?php echo base_url() . "index.php/home/devis/2" ?>" class="btn btn-primary pull-right">Suivant</a>
-                                    </div>
+                            <?php echo form_close(); ?>
 
-                            </form>		
 
 
                         </div>
@@ -98,5 +123,7 @@
 
 
     <?php include('include/footerScriptJs.php'); ?>
+</body>
+</html>
 
 
